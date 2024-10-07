@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Muhammad Hamza
 - 👀 I’m interested in Cloud Computing
-- 🌱 I’m currently learning Mobile app development with Flutter and Dart.
+- 🌱 Currently learning Mobile app development with Flutter and Dart.
 
 
 <!---
