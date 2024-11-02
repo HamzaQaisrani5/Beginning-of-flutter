@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class Facebook extends StatelessWidget {
   const Facebook ({super.key});
 
@@ -19,13 +18,11 @@ class Facebook extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             child: SingleChildScrollView(
               scrollDirection: Axis.vertical,
-
             child: 
             Row(
-            
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-                 const Column(
+               const Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [ 
              Text(
@@ -78,10 +75,10 @@ style: BorderStyle.solid
 borderRadius: BorderRadius.all(Radius.circular(7),
 ),
 ),
-                      focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(
-                      color: Color.fromARGB(255, 30, 128, 207),
-style: BorderStyle.solid
+       focusedBorder: OutlineInputBorder(
+       borderSide: BorderSide(
+      color: Color.fromARGB(255, 30, 128, 207),
+      style: BorderStyle.solid
 ),
 borderRadius: BorderRadius.all(Radius.circular(7)
 )),
@@ -100,10 +97,10 @@ borderRadius: BorderRadius.all(Radius.circular(7))
 hintStyle: TextStyle(
 color: Color.fromARGB(255, 211 , 210, 208)
     ),
-                      focusedBorder: OutlineInputBorder(
+  focusedBorder: OutlineInputBorder(
   borderRadius: BorderRadius.all(Radius.circular(7)),
-borderSide: BorderSide(
-color: Color.fromARGB(255, 30, 128, 207)
+  borderSide: BorderSide(
+  color: Color.fromARGB(255, 30, 128, 207)
 )
 )
 ),
@@ -162,15 +159,11 @@ backgroundColor: WidgetStatePropertyAll(Color.fromARGB(255, 142, 223, 55)),
   ),
 ),
 )
-
-])
-                        
+])                       
   )]),
 )
 )
-)));
-        
-
+)));      
 }
 }
 
